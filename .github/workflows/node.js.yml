@@ -22,7 +22,7 @@ jobs:
           node-version: 18
       - name: install frontend
         run: |
-          cd project
+          cd numer
           npm install
       - name: install backend
         run: |
@@ -30,7 +30,7 @@ jobs:
           npm install
       - name: test frontend
         run: |
-          cd project
+          cd numer
           npm test
       - name: test backend
         run: |
